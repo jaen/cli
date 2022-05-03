@@ -1,0 +1,162 @@
+GIT
+  remote: https://github.com/hanami/hanami.git
+  revision: 7489a581e9b48ffb030e556a50de61888668a267
+  branch: main
+  specs:
+    hanami (2.0.0.alpha7.1)
+      bundler (>= 1.16, < 3)
+      dry-configurable (~> 0.12, >= 0.12.1)
+      dry-core (~> 0.4)
+      dry-inflector (~> 0.2, >= 0.2.1)
+      dry-monitor
+      dry-system (~> 0.23, >= 0.23.0)
+      hanami-cli (~> 2.0.alpha)
+      hanami-utils (~> 2.0.alpha)
+      zeitwerk (~> 2.4)
+
+GIT
+  remote: https://github.com/hanami/router.git
+  revision: 19d492cb49fb5aa522e54f45e6390452af9a6911
+  branch: main
+  specs:
+    hanami-router (2.0.0.alpha6)
+      mustermann (~> 1.0)
+      mustermann-contrib (~> 1.0)
+      rack (~> 2.0)
+
+GIT
+  remote: https://github.com/hanami/view.git
+  revision: a5bd7d25bc25de91aaf133be6405902e09257eb0
+  branch: main
+  specs:
+    hanami-view (2.0.0.alpha7)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.13, >= 0.13.0)
+      dry-core (~> 0.5, >= 0.5)
+      dry-inflector (~> 0.1)
+      tilt (~> 2.0, >= 2.0.6)
+
+PATH
+  remote: .
+  specs:
+    hanami-cli (2.0.0.alpha7)
+      bundler (~> 2.1)
+      dry-cli (~> 0.6)
+      dry-files (~> 0.1)
+      dry-inflector (~> 0.2)
+      rake (~> 13.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    concurrent-ruby (1.1.10)
+    diff-lcs (1.5.0)
+    dry-auto_inject (0.9.0)
+      dry-container (>= 0.3.4)
+    dry-cli (0.7.0)
+    dry-configurable (0.15.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.6)
+    dry-container (0.9.0)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.13, >= 0.13.0)
+    dry-core (0.7.1)
+      concurrent-ruby (~> 1.0)
+    dry-events (0.3.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.5, >= 0.5)
+    dry-files (0.1.0)
+    dry-inflector (0.2.1)
+    dry-logic (1.2.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.5, >= 0.5)
+    dry-monitor (0.5.0)
+      dry-configurable (~> 0.13, >= 0.13.0)
+      dry-core (~> 0.5, >= 0.5)
+      dry-events (~> 0.2)
+    dry-struct (1.4.0)
+      dry-core (~> 0.5, >= 0.5)
+      dry-types (~> 1.5)
+      ice_nine (~> 0.11)
+    dry-system (0.23.0)
+      concurrent-ruby (~> 1.0)
+      dry-auto_inject (>= 0.4.0)
+      dry-configurable (~> 0.14, >= 0.14.0)
+      dry-container (~> 0.9, >= 0.9.0)
+      dry-core (~> 0.5, >= 0.5)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-struct (~> 1.0)
+    dry-transformer (0.1.1)
+    dry-types (1.5.1)
+      concurrent-ruby (~> 1.0)
+      dry-container (~> 0.3)
+      dry-core (~> 0.5, >= 0.5)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-logic (~> 1.0, >= 1.0.2)
+    hanami-utils (2.0.0.alpha6)
+      concurrent-ruby (~> 1.0)
+      dry-transformer (~> 0.1)
+    hansi (0.2.0)
+    ice_nine (0.11.2)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    mustermann-contrib (1.1.1)
+      hansi (~> 0.2.0)
+      mustermann (= 1.1.1)
+    parallel (1.22.1)
+    parser (3.1.2.0)
+      ast (~> 2.4.1)
+    rack (2.2.3)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    regexp_parser (2.3.1)
+    rexml (3.2.5)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
+    rubocop (1.28.2)
+      parallel (~> 1.10)
+      parser (>= 3.1.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.17.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.17.0)
+      parser (>= 3.1.1.0)
+    ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.5)
+    tilt (2.0.10)
+    unicode-display_width (2.1.0)
+    webrick (1.7.0)
+    yard (0.9.27)
+      webrick (~> 1.7.0)
+    zeitwerk (2.5.4)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  hanami!
+  hanami-cli!
+  hanami-router!
+  hanami-view!
+  rack
+  rspec (~> 3.9)
+  rubocop (~> 1.0)
+  yard
+
+BUNDLED WITH
+   2.3.7

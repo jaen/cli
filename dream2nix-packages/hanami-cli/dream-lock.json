@@ -1,0 +1,751 @@
+{
+  "_generic": {
+    "defaultPackage": "hanami-cli",
+    "invalidationHash": "d173ba28705bfb9eb202394ca365188d8d38901131cea3b3d736fc78ceb552a6",
+    "location": "",
+    "packages": {
+      "hanami-cli": "0.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "ruby",
+    "translatorArgs": ""
+  },
+  "_subsystem": {
+    "bundlerVersion": "2.3.7",
+    "gemspecPath": "hanami-cli.gemspec",
+    "platforms": [
+      "x86_64-linux"
+    ],
+    "rubyVersion": "",
+    "sourceTypes": {
+      "ast": {
+        "2.4.2": "rubygems"
+      },
+      "bundler": {
+        "2.3.7": "rubygems"
+      },
+      "concurrent-ruby": {
+        "1.1.10": "rubygems"
+      },
+      "diff-lcs": {
+        "1.5.0": "rubygems"
+      },
+      "dry-auto_inject": {
+        "0.9.0": "rubygems"
+      },
+      "dry-cli": {
+        "0.7.0": "rubygems"
+      },
+      "dry-configurable": {
+        "0.15.0": "rubygems"
+      },
+      "dry-container": {
+        "0.9.0": "rubygems"
+      },
+      "dry-core": {
+        "0.7.1": "rubygems"
+      },
+      "dry-events": {
+        "0.3.0": "rubygems"
+      },
+      "dry-files": {
+        "0.1.0": "rubygems"
+      },
+      "dry-inflector": {
+        "0.2.1": "rubygems"
+      },
+      "dry-logic": {
+        "1.2.0": "rubygems"
+      },
+      "dry-monitor": {
+        "0.5.0": "rubygems"
+      },
+      "dry-struct": {
+        "1.4.0": "rubygems"
+      },
+      "dry-system": {
+        "0.23.0": "rubygems"
+      },
+      "dry-transformer": {
+        "0.1.1": "rubygems"
+      },
+      "dry-types": {
+        "1.5.1": "rubygems"
+      },
+      "hanami": {
+        "2.0.0.alpha7.1": "git"
+      },
+      "hanami-cli": {
+        "2.0.0.alpha7": "gemspec"
+      },
+      "hanami-router": {
+        "2.0.0.alpha6": "git"
+      },
+      "hanami-utils": {
+        "2.0.0.alpha6": "rubygems"
+      },
+      "hanami-view": {
+        "2.0.0.alpha7": "git"
+      },
+      "hansi": {
+        "0.2.0": "rubygems"
+      },
+      "ice_nine": {
+        "0.11.2": "rubygems"
+      },
+      "mustermann": {
+        "1.1.1": "rubygems"
+      },
+      "mustermann-contrib": {
+        "1.1.1": "rubygems"
+      },
+      "parallel": {
+        "1.22.1": "rubygems"
+      },
+      "parser": {
+        "3.1.2.0": "rubygems"
+      },
+      "rack": {
+        "2.2.3": "rubygems"
+      },
+      "rainbow": {
+        "3.1.1": "rubygems"
+      },
+      "rake": {
+        "13.0.6": "rubygems"
+      },
+      "regexp_parser": {
+        "2.3.1": "rubygems"
+      },
+      "rexml": {
+        "3.2.5": "rubygems"
+      },
+      "rspec": {
+        "3.11.0": "rubygems"
+      },
+      "rspec-core": {
+        "3.11.0": "rubygems"
+      },
+      "rspec-expectations": {
+        "3.11.0": "rubygems"
+      },
+      "rspec-mocks": {
+        "3.11.1": "rubygems"
+      },
+      "rspec-support": {
+        "3.11.0": "rubygems"
+      },
+      "rubocop": {
+        "1.28.2": "rubygems"
+      },
+      "rubocop-ast": {
+        "1.17.0": "rubygems"
+      },
+      "ruby-progressbar": {
+        "1.11.0": "rubygems"
+      },
+      "ruby2_keywords": {
+        "0.0.5": "rubygems"
+      },
+      "tilt": {
+        "2.0.10": "rubygems"
+      },
+      "unicode-display_width": {
+        "2.1.0": "rubygems"
+      },
+      "webrick": {
+        "1.7.0": "rubygems"
+      },
+      "yard": {
+        "0.9.27": "rubygems"
+      },
+      "zeitwerk": {
+        "2.5.4": "rubygems"
+      }
+    }
+  },
+  "dependencies": {
+    "ast": {
+      "2.4.2": []
+    },
+    "bundler": {
+      "2.3.7": []
+    },
+    "concurrent-ruby": {
+      "1.1.10": []
+    },
+    "diff-lcs": {
+      "1.5.0": []
+    },
+    "dry-auto_inject": {
+      "0.9.0": [
+        [ "dry-container", "0.9.0" ]
+      ]
+    },
+    "dry-cli": {
+      "0.7.0": []
+    },
+    "dry-configurable": {
+      "0.15.0": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-core", "0.7.1" ]
+      ]
+    },
+    "dry-container": {
+      "0.9.0": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-configurable", "0.15.0" ]
+      ]
+    },
+    "dry-core": {
+      "0.7.1": [
+        [ "concurrent-ruby", "1.1.10" ]
+      ]
+    },
+    "dry-events": {
+      "0.3.0": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-core", "0.7.1" ]
+      ]
+    },
+    "dry-files": {
+      "0.1.0": []
+    },
+    "dry-inflector": {
+      "0.2.1": []
+    },
+    "dry-logic": {
+      "1.2.0": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-core", "0.7.1" ]
+      ]
+    },
+    "dry-monitor": {
+      "0.5.0": [
+        [ "dry-configurable", "0.15.0" ],
+        [ "dry-core", "0.7.1" ],
+        [ "dry-events", "0.3.0" ]
+      ]
+    },
+    "dry-struct": {
+      "1.4.0": [
+        [ "dry-core", "0.7.1" ],
+        [ "dry-types", "1.5.1" ],
+        [ "ice_nine", "0.11.2" ]
+      ]
+    },
+    "dry-system": {
+      "0.23.0": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-auto_inject", "0.9.0" ],
+        [ "dry-configurable", "0.15.0" ],
+        [ "dry-container", "0.9.0" ],
+        [ "dry-core", "0.7.1" ],
+        [ "dry-inflector", "0.2.1" ],
+        [ "dry-struct", "1.4.0" ]
+      ]
+    },
+    "dry-transformer": {
+      "0.1.1": []
+    },
+    "dry-types": {
+      "1.5.1": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-container", "0.9.0" ],
+        [ "dry-core", "0.7.1" ],
+        [ "dry-inflector", "0.2.1" ],
+        [ "dry-logic", "1.2.0" ]
+      ]
+    },
+    "hanami": {
+      "2.0.0.alpha7.1": [
+        [ "bundler", "2.3.7" ],
+        [ "dry-configurable", "0.15.0" ],
+        [ "dry-core", "0.7.1" ],
+        [ "dry-inflector", "0.2.1" ],
+        [ "dry-monitor", "0.5.0" ],
+        [ "dry-system", "0.23.0" ],
+        [ "hanami-cli", "2.0.0.alpha7" ],
+        [ "hanami-utils", "2.0.0.alpha6" ],
+        [ "zeitwerk", "2.5.4" ]
+      ]
+    },
+    "hanami-cli": {
+      "2.0.0.alpha7": [
+        [ "bundler", "2.3.7" ],
+        [ "rake", "13.0.6" ],
+        [ "dry-cli", "0.7.0" ],
+        [ "dry-files", "0.1.0" ],
+        [ "dry-inflector", "0.2.1" ],
+        [ "rspec", "3.11.0" ],
+        [ "rubocop", "1.28.2" ]
+      ]
+    },
+    "hanami-router": {
+      "2.0.0.alpha6": [
+        [ "mustermann", "1.1.1" ],
+        [ "mustermann-contrib", "1.1.1" ],
+        [ "rack", "2.2.3" ]
+      ]
+    },
+    "hanami-utils": {
+      "2.0.0.alpha6": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-transformer", "0.1.1" ]
+      ]
+    },
+    "hanami-view": {
+      "2.0.0.alpha7": [
+        [ "concurrent-ruby", "1.1.10" ],
+        [ "dry-configurable", "0.15.0" ],
+        [ "dry-core", "0.7.1" ],
+        [ "dry-inflector", "0.2.1" ],
+        [ "tilt", "2.0.10" ]
+      ]
+    },
+    "hansi": {
+      "0.2.0": []
+    },
+    "ice_nine": {
+      "0.11.2": []
+    },
+    "mustermann": {
+      "1.1.1": [
+        [ "ruby2_keywords", "0.0.5" ]
+      ]
+    },
+    "mustermann-contrib": {
+      "1.1.1": [
+        [ "hansi", "0.2.0" ],
+        [ "mustermann", "1.1.1" ]
+      ]
+    },
+    "parallel": {
+      "1.22.1": []
+    },
+    "parser": {
+      "3.1.2.0": [
+        [ "ast", "2.4.2" ]
+      ]
+    },
+    "rack": {
+      "2.2.3": []
+    },
+    "rainbow": {
+      "3.1.1": []
+    },
+    "rake": {
+      "13.0.6": []
+    },
+    "regexp_parser": {
+      "2.3.1": []
+    },
+    "rexml": {
+      "3.2.5": []
+    },
+    "rspec": {
+      "3.11.0": [
+        [ "rspec-core", "3.11.0" ],
+        [ "rspec-expectations", "3.11.0" ],
+        [ "rspec-mocks", "3.11.1" ]
+      ]
+    },
+    "rspec-core": {
+      "3.11.0": [
+        [ "rspec-support", "3.11.0" ]
+      ]
+    },
+    "rspec-expectations": {
+      "3.11.0": [
+        [ "diff-lcs", "1.5.0" ],
+        [ "rspec-support", "3.11.0" ]
+      ]
+    },
+    "rspec-mocks": {
+      "3.11.1": [
+        [ "diff-lcs", "1.5.0" ],
+        [ "rspec-support", "3.11.0" ]
+      ]
+    },
+    "rspec-support": {
+      "3.11.0": []
+    },
+    "rubocop": {
+      "1.28.2": [
+        [ "parallel", "1.22.1" ],
+        [ "parser", "3.1.2.0" ],
+        [ "rainbow", "3.1.1" ],
+        [ "regexp_parser", "2.3.1" ],
+        [ "rexml", "3.2.5" ],
+        [ "rubocop-ast", "1.17.0" ],
+        [ "ruby-progressbar", "1.11.0" ],
+        [ "unicode-display_width", "2.1.0" ]
+      ]
+    },
+    "rubocop-ast": {
+      "1.17.0": [
+        [ "parser", "3.1.2.0" ]
+      ]
+    },
+    "ruby-progressbar": {
+      "1.11.0": []
+    },
+    "ruby2_keywords": {
+      "0.0.5": []
+    },
+    "tilt": {
+      "2.0.10": []
+    },
+    "unicode-display_width": {
+      "2.1.0": []
+    },
+    "webrick": {
+      "1.7.0": []
+    },
+    "yard": {
+      "0.9.27": [
+        [ "webrick", "1.7.0" ]
+      ]
+    },
+    "zeitwerk": {
+      "2.5.4": []
+    }
+  },
+  "sources": {
+    "ast": {
+      "2.4.2": {
+        "hash": "sha256-HigCMuajN1TN5UK8XvhVILdNsqrHPsFKzvRTeERHzBI=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/ast-2.4.2.gem"
+      }
+    },
+    "bundler": {
+      "2.3.7": {
+        "hash": "sha256-EO82ZAbphtSyDtT0HkSKKzFcFoWkJzOp5F+Yti242EE=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/bundler-2.3.7.gem"
+      }
+    },
+    "concurrent-ruby": {
+      "1.1.10": {
+        "hash": "sha256-JEyxyg2R7CwVyiIJUHw5+xYzNplEKOFvvT9GXIe9jmg=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/concurrent-ruby-1.1.10.gem"
+      }
+    },
+    "diff-lcs": {
+      "1.5.0": {
+        "hash": "sha256-Sbk0AByMau2ze6GdrsXGNNonsxino8ZUrpeda6GSm2c=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/diff-lcs-1.5.0.gem"
+      }
+    },
+    "dry-auto_inject": {
+      "0.9.0": {
+        "hash": "sha256-xhnbHk9+5RsxxivxWlDmYooCv2K1U3oy/3vNpTXlCWQ=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-auto_inject-0.9.0.gem"
+      }
+    },
+    "dry-cli": {
+      "0.7.0": {
+        "hash": "sha256-eqTUgIzfs53i9fx3DjTiFqxO5eXne0J1dwEGi0K7zbk=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-cli-0.7.0.gem"
+      }
+    },
+    "dry-configurable": {
+      "0.15.0": {
+        "hash": "sha256-YiLywaEg9XQ/me/7DXnnDuBElSVdaG6kgx3WVZvRoBw=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-configurable-0.15.0.gem"
+      }
+    },
+    "dry-container": {
+      "0.9.0": {
+        "hash": "sha256-x8ZjQz6h0FxZS/7TYdHzs7LvsZ4rzo9sSUg91aB/PBU=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-container-0.9.0.gem"
+      }
+    },
+    "dry-core": {
+      "0.7.1": {
+        "hash": "sha256-qI+dGelLmxBtOSg4FKQj+TZ+8Fq7WZ6p0UC8zrbxwTE=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-core-0.7.1.gem"
+      }
+    },
+    "dry-events": {
+      "0.3.0": {
+        "hash": "sha256-cHcQ5NJetCcw6HhROATeh9zQXq8tdwN+/y3y0rFTaQQ=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-events-0.3.0.gem"
+      }
+    },
+    "dry-files": {
+      "0.1.0": {
+        "hash": "sha256-bue6yWfnhlyrs5PIhwg431bkWJGWfye6iKeiwrHWHRs=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-files-0.1.0.gem"
+      }
+    },
+    "dry-inflector": {
+      "0.2.1": {
+        "hash": "sha256-tFiSH8KyHUtl39dmvKjCMK0dyMY6fZDWeGiTCA/AH1Y=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-inflector-0.2.1.gem"
+      }
+    },
+    "dry-logic": {
+      "1.2.0": {
+        "hash": "sha256-lXIkb5UobFLjEl8coDh1wv1qWrPi5veDTrim9FSWse4=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-logic-1.2.0.gem"
+      }
+    },
+    "dry-monitor": {
+      "0.5.0": {
+        "hash": "sha256-+spFIELIeebmZcrNxcZyCjr+BjT1xd/5zPgYwn/bgdI=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-monitor-0.5.0.gem"
+      }
+    },
+    "dry-struct": {
+      "1.4.0": {
+        "hash": "sha256-Y8GsbBHucKiTIS2E/UXRZ1iJQ78AwJu75d3bWioPTPM=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-struct-1.4.0.gem"
+      }
+    },
+    "dry-system": {
+      "0.23.0": {
+        "hash": "sha256-WQIjTxWV5QfdBqkFt4xLrnJ7GitUfEIL0muqqeNPLuk=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-system-0.23.0.gem"
+      }
+    },
+    "dry-transformer": {
+      "0.1.1": {
+        "hash": "sha256-6hPp7u3pUVjt+lu5CA5HoBB0eSiz96qreha32M2FkUY=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-transformer-0.1.1.gem"
+      }
+    },
+    "dry-types": {
+      "1.5.1": {
+        "hash": "sha256-bdMAnR+RpEyA8OAZzFNyxnJhCEiRPywQyrR/atLQYL8=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/dry-types-1.5.1.gem"
+      }
+    },
+    "hanami": {
+      "2.0.0.alpha7.1": {
+        "rev": "7489a581e9b48ffb030e556a50de61888668a267",
+        "type": "git",
+        "url": "https://github.com/hanami/hanami.git"
+      }
+    },
+    "hanami-cli": {
+      "2.0.0.alpha7": {
+        "path": "/nix/store/2w246i89dn786a4526x5diphgppfwjfr-48865kxqn1zx28ixb64rgwms4p564153-source",
+        "type": "path"
+      }
+    },
+    "hanami-router": {
+      "2.0.0.alpha6": {
+        "rev": "19d492cb49fb5aa522e54f45e6390452af9a6911",
+        "type": "git",
+        "url": "https://github.com/hanami/router.git"
+      }
+    },
+    "hanami-utils": {
+      "2.0.0.alpha6": {
+        "hash": "sha256-PqwNAIe/EIwVxTI2yxZBO+9Hm2eolbpmrXJSB9wui6Q=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/hanami-utils-2.0.0.alpha6.gem"
+      }
+    },
+    "hanami-view": {
+      "2.0.0.alpha7": {
+        "rev": "a5bd7d25bc25de91aaf133be6405902e09257eb0",
+        "type": "git",
+        "url": "https://github.com/hanami/view.git"
+      }
+    },
+    "hansi": {
+      "0.2.0": {
+        "hash": "sha256-AgFZSRiFk6w3i+z5gQGca4OQwWi/x308etDXuGtvT1Y=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/hansi-0.2.0.gem"
+      }
+    },
+    "ice_nine": {
+      "0.11.2": {
+        "hash": "sha256-XVBqfScj1VktwSG5ko5JMXQnMBMfIqGjdknfHB4uY9s=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/ice_nine-0.11.2.gem"
+      }
+    },
+    "mustermann": {
+      "1.1.1": {
+        "hash": "sha256-CiHP5QWGnM6c4XmY21JgNE5434GuhXwHpiFD/TAplTE=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/mustermann-1.1.1.gem"
+      }
+    },
+    "mustermann-contrib": {
+      "1.1.1": {
+        "hash": "sha256-sOkPdvvbzAFUVXu+GrO5WiXLWiTeKC/8K1xW+f+YPGU=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/mustermann-contrib-1.1.1.gem"
+      }
+    },
+    "parallel": {
+      "1.22.1": {
+        "hash": "sha256-698fDFHxgt84Ui9wuncCFJQL75mM224A82SSspaZdh8=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/parallel-1.22.1.gem"
+      }
+    },
+    "parser": {
+      "3.1.2.0": {
+        "hash": "sha256-7aTXtJu/3a07bKnN+yMwLuxs9zwugIttWwzJFh98DnY=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/parser-3.1.2.0.gem"
+      }
+    },
+    "rack": {
+      "2.2.3": {
+        "hash": "sha256-Jjjn62aJpXJcfhbzDMSqTjFpTcPKMNeQlSUmeBvQu0Q=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rack-2.2.3.gem"
+      }
+    },
+    "rainbow": {
+      "3.1.1": {
+        "hash": "sha256-A5SRqjqJ9C76HW3sL8TmLt6W62rNleUvGtWBGCt5vGo=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rainbow-3.1.1.gem"
+      }
+    },
+    "rake": {
+      "13.0.6": {
+        "hash": "sha256-XOS/UDe0GWwkrGKDTY2xzhdUcDkQJr2eVX1mm+6xkJc=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rake-13.0.6.gem"
+      }
+    },
+    "regexp_parser": {
+      "2.3.1": {
+        "hash": "sha256-Rs9CxrfZWqvRK4l27ddn0NsMVOMDTEJaNpXWvSNHbhw=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/regexp_parser-2.3.1.gem"
+      }
+    },
+    "rexml": {
+      "3.2.5": {
+        "hash": "sha256-ozw7+V/aeYPsfwUFTzqYWvQdvCWgM5hDvSR56TyrsSM=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rexml-3.2.5.gem"
+      }
+    },
+    "rspec": {
+      "3.11.0": {
+        "hash": "sha256-iQfzLlwwlXJOVMFD6c/E3zcHm+NJND2rkCm+zbJZvqU=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rspec-3.11.0.gem"
+      }
+    },
+    "rspec-core": {
+      "3.11.0": {
+        "hash": "sha256-RjF4UDlv6kfmeT3Vp2BsCBaqOPUUn0zV3jCElbibEIU=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rspec-core-3.11.0.gem"
+      }
+    },
+    "rspec-expectations": {
+      "3.11.0": {
+        "hash": "sha256-o8CFmAW9/Yi++QvwUMu0oE8B/p4K0k5bd1ceGr2CMQA=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rspec-expectations-3.11.0.gem"
+      }
+    },
+    "rspec-mocks": {
+      "3.11.1": {
+        "hash": "sha256-VTfcBpr6vOpcvBmaFDKidyujpGXzIz9A0EaV2rp8ah8=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rspec-mocks-3.11.1.gem"
+      }
+    },
+    "rspec-support": {
+      "3.11.0": {
+        "hash": "sha256-AyhKhrdK+73v9sPcGawuD+ZQRTqWuJ+GDUWco+gl03U=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rspec-support-3.11.0.gem"
+      }
+    },
+    "rubocop": {
+      "1.28.2": {
+        "hash": "sha256-DZv0EI/Ybt5Dxs8wrcs90uDGdQlBxewqAGIUeBV8s3c=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rubocop-1.28.2.gem"
+      }
+    },
+    "rubocop-ast": {
+      "1.17.0": {
+        "hash": "sha256-HZdkPsfW4Xcfy39ESiQ51CRy/glX+gQG+4PDXPL8Mc0=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/rubocop-ast-1.17.0.gem"
+      }
+    },
+    "ruby-progressbar": {
+      "1.11.0": {
+        "hash": "sha256-zBJ9s4ZtxBT/zL+SkookHlhbOqK3WKVWPnSm7g9X1Qo=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/ruby-progressbar-1.11.0.gem"
+      }
+    },
+    "ruby2_keywords": {
+      "0.0.5": {
+        "hash": "sha256-/9E3QMVztzAc96LmH8hXsqjj06/zJUXW+DANi64Q4+8=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/ruby2_keywords-0.0.5.gem"
+      }
+    },
+    "tilt": {
+      "2.0.10": {
+        "hash": "sha256-m2ZPDpritQDPoA+cZcNKvG/xeZzwA0qMCgQS1SD6yGY=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/tilt-2.0.10.gem"
+      }
+    },
+    "unicode-display_width": {
+      "2.1.0": {
+        "hash": "sha256-tv+MMp/b/PZ+Tm3mQro98PXh4Fk1vpoiAzM6CHWqUjM=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/unicode-display_width-2.1.0.gem"
+      }
+    },
+    "webrick": {
+      "1.7.0": {
+        "hash": "sha256-h+m445lHt5JTOKXrVUJ7Ec4fKyWjZFdw7J852OvbjLQ=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/webrick-1.7.0.gem"
+      }
+    },
+    "yard": {
+      "0.9.27": {
+        "hash": "sha256-VqeGSF2iP6h43Z9WJ5wqksOEJtWrIejv3bTGoON8CDQ=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/yard-0.9.27.gem"
+      }
+    },
+    "zeitwerk": {
+      "2.5.4": {
+        "hash": "sha256-9VhK4MJ0+deZrOuwHsqbwxBR2yhCh/O07WtWc4U8eCU=",
+        "type": "rubygems",
+        "url": "https://rubygems.org/gems/zeitwerk-2.5.4.gem"
+      }
+    }
+  }
+}
